@@ -12,7 +12,7 @@ import pandas as pd
 def load_orders_to_mysql(df_to_load):
     tableName   = 'STG_ORDERS'
 
-    sqlEngine       = create_engine('mysql+mysqlconnector://xxxx:xxxxxxxx@35.231.15.41:3306/STAGE', pool_recycle=3600)
+    sqlEngine       = create_engine('mysql+mysqlconnector://xxxx:xxxxxxxx@xx.xxx.xx.xx:xxxx/STAGE', pool_recycle=3600)
 
     dbConnection    = sqlEngine.connect()
 
